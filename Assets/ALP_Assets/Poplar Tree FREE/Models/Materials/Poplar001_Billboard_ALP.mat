@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Poplar001_Billboard_ALP
   m_Shader: {fileID: 4800000, guid: e6635b5d95e70a74d8b1863e3ee43787, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - GEOM_TYPE_LEAF
@@ -20,6 +22,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -118,11 +121,11 @@ Material:
     m_Ints: []
     m_Floats:
     - PixelSnap: 0
-    - _AO: 0
+    - _AO: 5.18
     - _AlphaCutoffBias: 0.5
     - _AlphaRemapMax: 1
     - _AlphaRemapMin: 0
-    - _BaseLight: 0.382
+    - _BaseLight: 1
     - _BlendOp: 0
     - _Brightness: 0.331
     - _BumpScale: 1
@@ -154,7 +157,7 @@ Material:
     - _ColorShiftWorldSpaceNoiseShift: 5
     - _ColorShiftWorldSpaceOffset: 1
     - _Cull: 0
-    - _Cutoff: 0.718
+    - _Cutoff: 0.9
     - _DetailBlendEnableAltitudeMask: 0
     - _DetailBlendHeight: 0.5
     - _DetailBlendHeightMax: 1
@@ -261,7 +264,7 @@ Material:
     - _AlphaRemap: {r: 0, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
+    - _Color: {r: 0.54206717, g: 0.6037736, b: 0.41865435, a: 0.7019608}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
     - _DetailMaskUVs: {r: 1, g: 1, b: 0, a: 0}
     - _DetailUVs: {r: 1, g: 1, b: 0, a: 0}
@@ -278,3 +281,4 @@ Material:
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
